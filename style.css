@@ -1,15 +1,21 @@
-
 body {
   font-family: sans-serif;
+  padding: 20px;
   background: #f9f9f9;
-  text-align: center;
-  padding: 2rem;
 }
-h1 {
-  font-size: 2rem;
-  margin-bottom: 0.5rem;
+#product-list {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 }
-#catalog {
-  margin-top: 2rem;
-  font-weight: bold;
+.product {
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 12px;
+}
+.product img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
 }
